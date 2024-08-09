@@ -14,6 +14,14 @@
   flex-wrap: wrap;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
 .items-center {
   align-items: center;
 }
@@ -28,6 +36,10 @@
 
 .gap-16 {
   gap: 1rem;
+}
+
+.gap-20 {
+  gap: 1.28rem;
 }
 
 .gap-24 {
@@ -56,12 +68,24 @@
   font-style: normal;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
 .font-primary {
   font-family: 'Outfit';
 }
 
+.fs-12 {
+  font-size: calc(var(--fs-p) - 2px);
+}
+
+.fs-13 {
+  font-size: calc(var(--fs-p) - 1px);
+}
+
 .fs-14 {
-  font-size: 0.875rem;
+  font-size: var(--fs-p)
 }
 
 .fs-20 {
@@ -90,4 +114,34 @@
 
 .clr-brown-800 {
   color: var(--clr-brand-brown-800);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/**************** project specific ************************/
+
+.f-secondary {
+  font-family: "Fraunces";
+}
+
+.fs-32 {
+  font-size: 2rem;
+}
+
+.space-5 {
+  letter-spacing: 5px;
+}
+
+.clr-dark-cyan {
+  color: var(--clr-primary-dark-cyan)
+}
+
+.clr-greyish-blue {
+  color: var(--clr-neutral-grayish-blue);
+}
+
+.bg-clr-dark-cyan {
+  background-color: var(--clr-primary-dark-cyan);
 }
