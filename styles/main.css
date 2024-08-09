@@ -60,6 +60,7 @@ p {
   padding-block: 1.073rem;
   border-radius: 8px;
   gap: 0.78rem;
+  font-weight: bold;
 }
 .product__img {
   width: 100%;
