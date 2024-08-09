@@ -57,7 +57,7 @@ p {
 }
 .product_cta {
   color: var(--clur-neutral-white);
-  padding-block: 1.073rem;
+  padding-block: 0.9375rem;
   border-radius: 8px;
   gap: 0.78rem;
   font-weight: bold;
